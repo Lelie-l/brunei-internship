@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    background-image: url('https://www.pinyourfootsteps.com/wp-content/uploads/2024/06/brunei-3-1170x659.jpg');
+    /* background-image: url('https://www.nationsonline.org/gallery/Brunei/Sultan-Omar-Ali-Saifuddin-Mosque.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}
+
+/* header {
+    position: relative;
+    padding: 0 2rem;
+} */
+
+.logo {
+    margin: 10px;
+    float: left;
+    color:white;
+}
+
+.stuff {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: grey;
+    opacity: 50;
+}
+
+
+.bodytext {
+    position: relative;
+    margin-top: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 19px;
+}
+
+.bodytext .firstline {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+/* .bodytext .contents {
+    text-align: left;
+    margin-top: 15%;
+} */
+
+.learnmorebutton {
+    margin-top: 10px;
+    background-color: white;
+    width: 110px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Varela", sans-serif;
+    font-weight: bold;
+}
+
+.learnmorebutton:hover {
+    background-color: lightgrey;
+}
