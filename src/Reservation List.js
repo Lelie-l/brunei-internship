@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         records.forEach(record => {
             const li=  document.createElement('header')
             let stars = ''
-            for (i = 0; i < record.rating; i++) {
+            for (let i = 0; i < record.rating; i++) {
                 stars += "<i class = 'fa-solid fa-star'></i>"
             }
                 li.innerHTML = 
