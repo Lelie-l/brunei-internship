@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.mainContainer {
+    background-image: url('https://www.pinyourfootsteps.com/wp-content/uploads/2024/06/brunei-3-1170x659.jpg');
+    display:flex;
+    justify-content:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.text {
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+   padding-left:20px;
+    
+}
+.boxStyle {
+    
+    margin:20px;
+    margin-top:100px;
+    display:flex;
+    flex-direction:row;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid aqua;
+    background-color: aquamarine;
+    box-shadow: 0px 6px 6px 6px  aqua;
+ 
+    
+}
+   
+.description {
+    padding-top:15px;
+    line-height:24px;
+
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+}    
+
+.hotelName {
+    color:blue;
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+.imageStyle {
+    
+    border-radius:15px;
+    
+    
+}
+
+.book {
+    font-weight:bold;
+   padding-top:200px;
+   font-size:20px;
+   
+
+}
+.logo {
+    margin: 10px;
+    float: left;
+    color:white;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+li {
+    list-style: none;
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navlink:hover {
+    color: grey;
+    opacity: 50;
+}
+
+.stuff {
+    display: flex;
+    gap: 2rem;
+}
+@media (max-width:768px) {
+    .boxStyle {
+        width: 100%; /* Adjust width to fit smaller screens */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        margin: 10px; /* Adjust margins for spacing */
+        padding: 10px; /* Adjust padding for spacing */
+        margin-top:100px;
+    }
+    .text {
+        display:flex;
+        flex-direction:column;
+        text-align: left;
+       padding-left:20px;
+        
+    }
+    .book {
+        padding-top: 20px; /* Adjust spacing as needed */
+        font-size: 20px; /* Decrease font size for smaller screens */
+        text-align:right;
+    }
+    .stuff li {
+        font-size: 0.6rem; 
+    }
+
+    .logo h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: yellow;
+    }
+}
