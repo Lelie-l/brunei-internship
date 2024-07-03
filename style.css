@@ -15,15 +15,7 @@ li {
 }
 
 body {
-    background-color: white;
-    background-image: url('https://www.pinyourfootsteps.com/wp-content/uploads/2024/06/brunei-3-1170x659.jpg');
-    /* background-image: url('https://www.nationsonline.org/gallery/Brunei/Sultan-Omar-Ali-Saifuddin-Mosque.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%
+
 }
 
 /* header {
@@ -98,4 +90,16 @@ a:hover {
 
 .learnmorebutton:hover {
     background-color: lightgrey;
+}
+
+.description{
+    background-color: white;
+    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
+    /* background-image: url('https://www.nationsonline.org/gallery/Brunei/Sultan-Omar-Ali-Saifuddin-Mosque.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
