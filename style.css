@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,100 +7,123 @@
     font-family: "Varela", sans-serif;
 }
 
-html {
+html, body {
     height: 100%;
 }
 
-li {
-    list-style: none;
-}
-
 body {
-
+    background-color: white;
+    background-image: url('https://www.pinyourfootsteps.com/wp-content/uploads/2024/06/brunei-3-1170x659.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-/* header {
-    position: relative;
-    padding: 0 2rem;
-} */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+}
 
-.logo {
-    margin: 10px;
-    float: left;
-    color:white;
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: yellow;
+}
+
+.logo h1 span {
+    color: black;
 }
 
 .stuff {
     display: flex;
-    gap: 2rem;
+    gap: 20px;
+    list-style: none;
 }
 
-.navbar {
-    width: 100%;
-    height: 60px;
-    padding: 0 2rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
+.stuff li {
+    font-size: 1rem; 
 }
 
-a {
+.stuff a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
-a:hover {
-    color: grey;
-    opacity: 50;
+.stuff a:hover {
+    color: lightgrey;
 }
-
 
 .bodytext {
-    position: relative;
-    margin-top: 20%;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 19px;
+    text-align: left;
+    margin-top: 100px;
 }
 
 .bodytext .firstline {
-    margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
 }
 
-/* .bodytext .contents {
-    text-align: left;
-    margin-top: 15%;
-} */
+.bodytext p {
+    font-size: 1.2rem; 
+    line-height: 1.6;
+}
 
 .learnmorebutton {
-    margin-top: 10px;
-    background-color: white;
-    width: 110px;
-    height: 35px;
+    margin-top: 20px;
+    font-size: 1rem; 
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    font-family: "Varela", sans-serif;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .learnmorebutton:hover {
     background-color: lightgrey;
 }
 
-.description{
-    background-color: white;
-    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
-    /* background-image: url('https://www.nationsonline.org/gallery/Brunei/Sultan-Omar-Ali-Saifuddin-Mosque.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+
+@media (max-width: 768px) {
+    .bodytext {
+        margin-top: 50px; 
+    }
+
+    .bodytext .firstline {
+        font-size: 1.5rem; 
+    }
+
+    .bodytext p {
+        font-size: 0.9rem; 
+    }
+    
+    .stuff li {
+        font-size: 0.6rem; 
+    }
+
+    .logo h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: yellow;
+    }
+
+    .learnmorebutton {
+        font-size: 0.5rem; 
+        padding: 8px 16px; 
+        margin-top: 5px;
+    }
 }
