@@ -1,0 +1,104 @@
+[
+
+    {
+        "id": 1,
+        "name": "The Empire Brunei",
+        "address": "Jerudong Polo Ground",
+        "description": "Experience unparalleled luxury at The Empire Brunei. This opulent hotel boasts lavish rooms and villas, a world-class golf course, a pampering spa, and a variety of delectable restaurants.",
+        "rating":4.7,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/471332145.jpg?k=35d30ffe13ba8975bc7d1a29bf13afacb9ffe062f6de13c867044cfc50360087&o=&hp=1",
+        "currentPrice":3500,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g469399-d302006-Reviews-The_Empire_Brunei-Kampong_Jerudong_Brunei_Muara_District.html"
+    },
+    {
+        "id":2,
+        "name": "The Centrepoint Hotel",
+        "address":"Jalan Maulana, Bandar Seri Begawan",
+        "description":"The Centrepoint Hotel offers a sophisticated stay in Brunei. Its modern rooms and amenities cater to business and leisure travelers. Enjoy a refreshing dip in the pool, work out in the fitness room, or indulge in delicious meals at one of the three on-site restaurants.",
+        "rating":4,
+        "imagesrc":"https://images.trvl-media.com/lodging/38000000/37630000/37623300/37623221/cb6d2ae4.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+        "currentPrice":370,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d505219-Reviews-The_Centrepoint_Hotel-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":3,
+        "name": "Radisson Hotel Brunei Darussalam",
+        "address":"",
+        "description":"Unwind in the relaxed ambiance of the Radisson Hotel Brunei Darussalam. This hotel provides comfortable rooms and suites perfect for a relaxing getaway. Take a dip in the outdoor pool, relish a delicious meal at the restaurant, or rejuvenate at the spa.",
+        "rating":4.5,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/513671594.jpg?k=cb618c9256cf0c4c218db1fb538343ec96b76f7650e4db0e15beaffa4d06269d&o=&hp=1",
+        "currentPrice": 2350,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d301756-Reviews-Radisson_Hotel_Brunei_Darussalam-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":4,
+        "name": "Badi'ah Hotel Brunei",
+        "address":"Jalan Tutong, Kg. Sungai Besar",
+        "description":"For a comfortable and affordable stay, consider Badi'ah Hotel Brunei. This hotel offers cozy rooms, a convenient restaurant/bar, and a refreshing outdoor pool. Guests also enjoy free parking and airport shuttle services.",
+        "rating":4.1,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/48667916.jpg?k=568a23266c6e32fc0d760cf87b2bd2fb0c7a36ae197cf75e10bb2d34afc43eb4&o=&hp=1",
+        "currentPrice": 540,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d4726509-Reviews-Badi_ah_Hotel-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":5,
+        "name": "The Brunei Hotel",
+        "address":"Jalan Pemancha, Bandar Seri Begawan",
+        "description":"Steeped in history, The Brunei Hotel offers a classic Bruneian experience. This centrally located hotel features comfortable rooms, a swimming pool, and a restaurant serving local and international cuisine.",
+        "rating":4.2,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/471394079.jpg?k=fa61158f7e59d028f4cc20a651e438b5365cc1e7ce8daec26d413b4fbdb5059c&o=&hp=1",
+        "currentPrice":800,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d308355-Reviews-The_Brunei_Hotel-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":6,
+        "name": "The Rizqun International Hotel",
+        "address":"Jalan Sultan Omar Ali Saifuddin, Bandar Seri Begawan",
+        "description":"Modern and stylish, The Rizqun International Hotel caters to discerning travelers. It boasts spacious rooms with stunning views, a rooftop pool with a bar, and a variety of restaurants offering international flavors.",
+        "rating":4.3,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/533405599.jpg?k=701e96488f1f7ef1a6d9dae4e704001cdf1846b5058f5becc1752af9cc06a6bc&o=&hp=1",
+        "currentPrice":1200,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d665493-Reviews-The_Rizqun_International_Hotel-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":7,
+        "name": "Garden Sentral Hotel",
+        "address":"Jalan Maulana, Kuala Belait",
+        "description":"A great option for budget-conscious travelers, Garden Sentral Hotel offers comfortable rooms and a relaxed atmosphere. Located in Kuala Belait, it's ideal for exploring the town's historical sites and nearby beaches.",
+        "rating":4,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/144050172.jpg?k=2d5710eae71efe28a9e815b6217e8bf741f652c78f6a0e858654c82b9e101edb&o=&hp=1",
+        "currentPrice":250,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g1024131-d8291649-Reviews-Garden_Sentral_Hotel-Kuala_Belait_Belait_District.html"
+    },
+    {
+        "id":8,
+        "name": "The Lanes Hotel",
+        "address":"Jalan Tutong, Tutong",
+        "description":"Embrace a boutique hotel experience at The Lanes Hotel. This stylish hotel in Tutong offers unique and intimate accommodations, perfect for a romantic getaway or a relaxing escape.",
+        "rating":4.5,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/178791124.jpg?k=b73f6f8685e3408a4ad588ff948033cf366744650d9cc408b7af262dd270a57e&o=&hp=1",
+        "currentPrice":450,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g3135192-d15327190-Reviews-The_Lanes_Hotel-Tutong_Tutong_District.html"
+    },
+    {
+        "id":9,
+        "name": "Sea View Resort Hotel & Apartments",
+        "address":"Jalan Maulana, Kuala Belait",
+        "description":"This hotel offers a beachfront location ideal for relaxation and enjoying water activities. It features spacious rooms and apartments, some with stunning sea views. Guests can enjoy a variety of amenities, including a swimming pool, a restaurant, and a fitness center.",
+        "rating":4.1,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/180044902.jpg?k=b1077733e31f336a878d39384eb6e6b932f7ff6b8272a306024002921afdf1b0&o=&hp=1",
+        "currentPrice":650,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d24091402-Reviews-Sea_View_Resort_Hotel_Apartments-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    },
+    {
+        "id":10,
+        "name": "The Capital Residence Suites",
+        "address":"Jalan Sultan Haji Hassanal Bolkiah, Bandar Seri Begawan",
+        "description":"This luxurious hotel provides a sophisticated stay in the heart of the capital city. It offers spacious suites with modern amenities, perfect for business travelers or those seeking a touch of elegance. Guests can enjoy a variety of facilities, including a swimming pool, a spa, and a fitness center.",
+        "rating":4.4,
+        "imagesrc":"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/185927480.jpg?k=91752916f8064a0288dd8920f1ed805a1676ce5a155c04da127f26763ba5ffd4&o=&hp=1",
+        "currentPrice": 1500,
+        "book": "https://www.tripadvisor.com/Hotel_Review-g293938-d1157970-Reviews-The_Capital_Residence_Suites-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+    }
+    
+]
