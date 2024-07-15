@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import './index.css';
+// import './index.css';
 import App from './pages/App';
 import Test from './pages/Test';
+import ReservationList from './pages/Reservation';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/test" element={<Test />} />
         <Route path="/" element={<App />} />
+        <Route path="/ResL" element={<ReservationList />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

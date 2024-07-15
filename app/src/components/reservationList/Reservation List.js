@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         records.forEach(record => {
             const li=  document.createElement('header')
             let stars = ''
+            // eslint-disable-next-line no-undef
             for (i = 0; i < record.rating; i++) {
                 stars += "<i class = 'fa-solid fa-star'></i>"
             }

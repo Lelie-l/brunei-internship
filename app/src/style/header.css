@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 20px; */
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: yellow;
+}
+
+.logo h1 span {
+    color: black;
+}
+
+.logo .black {
+    color: black;
+}
+
+.logo .white {
+    color: white;
+}
+.stuff {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.stuff li {
+    font-size: 1rem; 
+}
+
+.stuff a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.stuff a:hover {
+    color: lightgrey;
+}
+
+.bodytext {
+    text-align: left;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.bodytext .firstline {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+}
+
+.bodytext p {
+    font-size: 1.2rem; 
+    line-height: 1.6;
+}
+
+.learnmorebutton {
+    margin-top: 20px;
+    font-size: 1rem; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learnmorebutton:hover {
+    background-color: lightgrey;
+}
+
+
+@media (max-width: 768px) {
+    .bodytext {
+        margin-top: 50px; 
+    }
+
+    .bodytext .firstline {
+        font-size: 1.5rem; 
+    }
+
+    .bodytext p {
+        font-size: 0.9rem; 
+    }
+    
+    .stuff li {
+        font-size: 0.6rem; 
+    }
+
+    .logo h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: yellow;
+    }
+
+    .learnmorebutton {
+        font-size: 0.5rem; 
+        padding: 8px 16px; 
+        margin-top: 5px;
+    }
+}
