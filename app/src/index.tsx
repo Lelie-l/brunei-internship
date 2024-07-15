@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-// import './index.css';
-import App from './pages/App';
+// import './style/header.css';
+import Home from './pages/Home';
 import Test from './pages/Test';
-import ReservationList from './pages/Reservation';
+import CreateList from './components/reservationList/ReservationLists';
+import Layout from './Layout';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,11 +13,13 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <Routes>
-        <Route path="/test" element={<Test />} />
-        <Route path="/" element={<App />} />
-        <Route path="/ResL" element={<ReservationList />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/test" element={<Test />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/ResL" element={<CreateList />} />
+        </Routes>
+      </Layout>
     </HashRouter>
   </React.StrictMode>
 );

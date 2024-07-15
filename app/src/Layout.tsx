@@ -1,6 +1,12 @@
-import "../../style/reservationList.css";
+import "./style/header.css";
 import { Link } from "react-router-dom";
-function Heading() {
+import React, { ReactNode } from 'react';
+
+interface LayoutProps {
+  children: ReactNode;
+} //fail maybe?
+
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     // <div id="home-header-container">
     //   <img alt="ic_home_top" src={require(".s/../assets/img/banner.png")} />
@@ -9,6 +15,7 @@ function Heading() {
     //   </div>
     // </div>
     // <div className="backgroundimage">
+    <div>
     <header className="header">
         <div className="logo">
             <h1>Br<span className="white">u</span><span className="black">n</span>ei<span className="white">.</span></h1>
@@ -19,8 +26,11 @@ function Heading() {
             <li className="item"><a href="#about">About Brunei</a></li>
         </ul>
     </header>
-    // </div>
+    <main>
+        {children}
+    </main>
+    </div>
   );
 }
 
-export default Heading;
+export default Layout;
