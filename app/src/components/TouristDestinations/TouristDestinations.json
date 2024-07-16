@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Omar Ali Saifuddien Mosque",
+        "description": "This magnificent mosque sits at the very heart of the capital city and the country's Islamic faith. Built in 1958 and named after the 28th Sultan Of Brunei, it is one of the most impressive mosques in South-East Asia. Set amid its own lagoon, the mosque seems to be floating, surrounded by lush greenery and floral gardens, while its glittering dome, covered in real gold, soars above the skyline. Featuring luminous stained glass windows, floors of gleaming Italian marble, walls of Shanghai granite, chandeliers from Britain and Carpets from Saudi Arabia, the mosque brings together the world's best materials in a tour de force of architectural beauty and spiritual ambience. A marble bridge across the lagoon brings you to a replica of a 16th century Royal Barge, which used to host religious ceremonies, like Quran reading competitions. At night, the mosque is illuminated, making it a vision to be seen. Opening Hours : Sun-Wed, 8am until 5:30pm, EXCEPT at Prayer times Closed : Thurs-Fri Shoes are to be removed before entering. Dress appropriately For Men : No shorts, No Sleeveless ( wear long pants) For Women : No singlets, No shorts, must cover leg ( wear Long pants)",
+        "address": "Jalan McArthur, Bandar Seri Begawan BS8711, Brunei",
+        "tags": "Architectural Buildings, Religious Sites, Top Attractions",
+        "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg/2560px-Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bandar Seri Begawan",
+        "description": "Bandar Seri Begawan is the capital of Brunei, a tiny nation on the island of Borneo. It’s known for the opulent Sultan Omar Ali Saifuddien Mosque, adorned with chandeliers, stained glass and Italian marble, and surrounded by a lagoon. Nearby, the Royal Regalia Building showcases a gold carriage and lavish gifts presented to the sultan. To the northwest is the Jame’Asr Hassanil Bolkiah Mosque, with 29 golden domes.",
+        "address": "Brunei-Muara district, Brunei",
+        "tags": "Cities",
+        "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/a/a9/Bandar_Seri_Begawan%2C_the_capital_of_the_Sultanate_of_Brunei_%2818592560331%29.jpg"
+    },
+    
+    {
+        "id": 3,
+        "name": "Jame'Asr Hassanil Bolkiah Mosque",
+        "description": "This ornately decorated mosque, built in 1994, is surrounded by landscaped gardens and fountains. This mosque is a fine example of Islamic architecture carried out with a devotion to details. Opening hours : Sun to Wed Time : 8am- 12noon , 2pm-3pm and 5pm-6pm Open on Saturdays if there is no official function the following day. Closed Thurs- Fri Shoes are to be removed before entering Admission Free.",
+        "address": "Simpang 127, Bandar Seri Begawan, Brunei",
+        "tags": "Religious Sites, Top Attractions",
+        "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/4/45/BN-bsb-jame-asr-hassanil-m-2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kampong Ayer - Venice of East",
+        "description": "Technically part of the Bruneian capital of Bandar Seri Begawan, Kampong Ayer has more than enough uniqueness and history about it to be considered separately. Meaning “water village”, Kampong Ayer is built on stilts above the Brunei river. More than 30,000 people inhabit Kampong Ayer, the largest water settlement in Southeast Asia, and travel about by boat or the extensive network of wooden walkways, footbridges, and boardwalks. Kampong Ayer’s 4,200 structures include homes, mosques, restaurants, shops, schools, and a even a hospital. People have been living here for more than 1,300 year. Many of the traditional lifestyles of its inhabitants; fishermen, traders, and artisans; have remained unchanged. Visitors can experience this heritage by taking one of the many water taxis in front of the Yayasan Sultan Haji Hassanal Bolkiah in Bandar Seri Begawan.",
+        "address": "Bandar Seri Begawan, Brunei",
+        "tags": "Landmarks, Top Attractions",
+        "imageSrc":"https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1577454517/bitsxokn1visre3foklw.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Istana Nurul Iman",
+        "description": "The official residence of the Sultan of Brunei, Istana Nurul Iman is considered the world's largest residential palace. Its opulence is unmatched, with over 1,700 rooms, 257 bathrooms, and a banquet hall that can accommodate up to 5,000 guests. Visitors can marvel at the palace's grandeur during Hari Raya, when it is open to the public for three days.",
+        "address": "Bandar Seri Begawan, Brunei",
+        "tags": "Architectural Buildings, Top Attractions",
+        "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Istana-nurul-iman.jpg/1200px-Istana-nurul-iman.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Ulu Temburong National Park",
+        "description": "Ulu Temburong National Park, often referred to as the 'Green Jewel of Brunei,' offers an untouched rainforest experience. Accessible via boat and a series of steps and walkways, visitors can enjoy canopy walks, river tubing, and diverse wildlife. It's a haven for nature enthusiasts and adventure seekers alike.",
+        "address": "Temburong District, Brunei",
+        "tags": "Parks, Outdoor Activities, Top Attractions",
+        "imageSrc":"https://www.bruneitourism.com/wp-content/uploads/2019/10/Brunei-travel-adventure-packages.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tasek Lama Recreational Park",
+        "description": "Located near the city center, Tasek Lama Recreational Park is a popular spot for hiking, jogging, and picnics. The park features lush greenery, a beautiful waterfall, and well-maintained trails, making it a serene escape for both locals and tourists. It's an ideal place for nature walks and bird watching.",
+        "address": "Bandar Seri Begawan, Brunei",
+        "tags": "Parks, Outdoor Activities, Top Attractions",
+        "imageSrc":"https://www.bruneitourism.com/wp-content/uploads/2021/09/Tasek-Lama-FINAL.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Gadong Night Market",
+        "description": "The Gadong Night Market is a bustling hotspot for food lovers, offering a wide array of local delicacies and snacks. Open every evening, the market is a sensory delight with the aromas of grilled meats, satay, and freshly prepared sweets. It's an excellent place to experience Brunei's culinary diversity.",
+        "address": "Gadong, Bandar Seri Begawan, Brunei",
+        "tags": "Markets, Food & Drink, Top Attractions",
+        "imageSrc":"https://gcs.tripi.vn/public-tripi/tripi-feed/img/474250MKI/pasar-pelbagai-barangan-ivivu.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Royal Regalia Museum",
+        "description": "The Royal Regalia Museum in Bandar Seri Begawan houses an extensive collection of royal artifacts, including ceremonial weapons, jeweled crowns, and the Sultan's golden chariot. The museum provides an insight into the opulent lifestyle of Brunei's monarchy and is a must-visit for those interested in the nation's royal heritage.",
+        "address": "Jalan Sultan, Bandar Seri Begawan, Brunei",
+        "tags": "Museums, Landmarks, Top Attractions",
+        "imageSrc":"https://gcs.tripi.vn/public-tripi/tripi-feed/img/474250MKI/pasar-pelbagai-barangan-ivivu.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Brunei Museum",
+        "description": "The Brunei Museum, located in Kota Batu, showcases the rich history and culture of Brunei. Exhibits include Islamic art, ancient ceramics, and Bornean ethnographic displays. The museum offers a comprehensive overview of the nation's past and its cultural heritage.",
+        "address": "Kota Batu, Bandar Seri Begawan, Brunei",
+        "tags": "Museums, Landmarks, Top Attractions",
+        "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/BRUNEI_NATIONAL_MUSEUM%2C_BRUNEI.jpg/800px-BRUNEI_NATIONAL_MUSEUM%2C_BRUNEI.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Tutong",
+        "description": "Tutong is a picturesque district known for its pristine beaches and tranquil surroundings. It offers a slower pace compared to the bustling capital, with attractions like the Seri Kenangan Beach, Tutong River, and the charming Tamu Tutong market. It's an ideal spot for those looking to relax and enjoy nature.",
+        "address": "Tutong District, Brunei",
+        "tags": "Cities",
+        "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sri_Aman_Complex%2C_Tutong.jpg/640px-Sri_Aman_Complex%2C_Tutong.jpg"
+    },
+     {
+        "id": 12,
+        "name": "Kampung Jerudong",
+        "description":"Kampong Jerudong or simply Jerudong is a village in Brunei-Muara District, Brunei, about 21 kilometres from the capital Bandar Seri Begawan. The population was 3,856 in 2016. It is one of the settlements within Mukim Sengkurong.",
+       "address": "Brunei-Muara District, Brunei",
+       "tags":"Cities",
+       "imageSrc":"https://t-2.tstatic.net/bangka/foto/bank/images/20020512-Jerudong-Park-di-Brunei-Darussalam.jpg"
+
+     }
+]
