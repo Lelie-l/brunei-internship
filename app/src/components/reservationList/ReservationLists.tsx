@@ -1,6 +1,15 @@
 import React from 'react';
 import data from './Hotels.json'; // Adjust the path based on your file location
-import '../../style/header.css';
+
+interface Record {
+    name: string;
+    address: string;
+    description: string;
+    rating: number;
+    currentPrice: number;
+    book: string;
+    imagesrc: string;
+}
 
 const CreateList: React.FC = () => {
     const renderStars = (rating: number) => {

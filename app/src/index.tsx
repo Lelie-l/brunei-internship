@@ -4,7 +4,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 // import './style/header.css';
 import Home from './pages/Home';
 import Test from './pages/Test';
-import CreateList from './components/reservationList/ReservationLists';
+import ResList from './pages/Reservation';
 import Layout from './Layout';
 
 const root = ReactDOM.createRoot(
@@ -17,7 +17,7 @@ root.render(
         <Routes>
           <Route path="/test" element={<Test />} />
           <Route path="/" element={<Home />} />
-          <Route path="/ResL" element={<CreateList />} />
+          <Route path="/ResL" element={<ResList />} />
         </Routes>
       </Layout>
     </HashRouter>

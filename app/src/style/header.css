@@ -14,17 +14,13 @@ html, body {
 
 body {
     background-color: white;
-    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
+    /* background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    display: flex;
+    background-position: center; */
+    display: block;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* padding: 20px; */
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 .header {
@@ -36,6 +32,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 1000; 
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .logo h1 {
@@ -77,13 +75,23 @@ body {
 
 .bodytext {
     text-align: left;
-    margin-top: 100px;
+    height: 100vh;
     padding: 0 20px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .bodytext .firstline {
     font-size: 2.5rem; 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .bodytext p {
@@ -92,6 +100,9 @@ body {
 }
 
 .learnmorebutton {
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
     margin-top: 20px;
     font-size: 1rem; 
     padding: 10px 20px;
@@ -99,6 +110,7 @@ body {
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    background-color: white;
     transition: background-color 0.3s ease;
 }
 
@@ -106,12 +118,55 @@ body {
     background-color: lightgrey;
 }
 
+.alignbody {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonNavigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(201, 202, 203, 0.5);
+}
+
+.buttonNavigation a {
+    padding: 10px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+.buttonNavigation img {
+    margin-right: 6px;
+}
+
+.buttonNavigation p {
+    opacity: 1;
+}
+
+.buttonNavigation a:hover {
+    background-image: linear-gradient(transparent,white); 
+    opacity: 1;
+    cursor: pointer;
+}
+
 .boxStyle { 
-    margin:20px;
-    margin-top:50px;
+    margin: 3rem;
     display:flex;
     flex-direction:row;
-    width: 750px;
+    width: 30rem;
     height: auto;
     padding: 2vh;
     background-color: rgba(253, 255, 198, 0.926);
@@ -122,8 +177,15 @@ body {
 .classreservation {
     display:flex;
     justify-content:center;
-    margin-top: 3vh;
-    width: 100vw;
+    margin: 3vh;
+    max-height: 20rem;
+    width: 45vw;
+    overflow-y: scroll;
+    border:#000000;
+    border-width: 5px;
+    box-shadow: inset 0 5px 10px #666666;
+    border-radius: 2rem;
+    
 }
 
 .text {
@@ -138,19 +200,24 @@ body {
 
 .imageStyle {  
     border-radius:10px;
-    height: 210px;
-    width: 300px;
+    height: 7rem;
+    width: 10rem;
 }
 
 .hotelName {
     color:black;
-    font-size:1.4rem;
+    font-size:1rem;
     font-weight:bold;
+}
+
+.address {
+    font-size: 0.9rem;
 }
 
 .description {
     line-height:24px;
     margin-top: 8px;
+    font-size: 0.7rem;
 }
 
 .desc {
@@ -169,7 +236,7 @@ body {
 }
 @media (max-width: 768px) {
     .bodytext {
-        margin-top: 50px; 
+        /* margin-top: 50px;  */
     }
 
     .bodytext .firstline {
@@ -194,5 +261,56 @@ body {
         font-size: 0.5rem; 
         padding: 8px 16px; 
         margin-top: 5px;
+    }
+
+    .boxStyle { 
+        width: 600px;
+        height: auto;
+        padding: 2vh;
+        background-color: rgba(253, 255, 198, 0.926);
+        box-shadow: 4px 4px 8px #00000073;
+        border-radius: 8px;
+    }
+    
+    .classreservation {
+        /* margin-top: 2vh; */
+        width: 26rem;
+    }
+    
+    .text {
+        padding-left: 2vh;
+    }
+    
+    .image {
+        display: block;
+    
+    }
+    
+    .imageStyle {  
+        border-radius:10px;
+        height: 150px;
+        width: 200px;
+    }
+    
+    .hotelName {
+        color:black;
+        font-size:1.1rem;
+        font-weight:bold;
+    }
+    
+    .description {
+        line-height:24px;
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
+    
+    .book {
+        font-weight:bold;
+        font-size:1.1rem;
+        margin-top: 5px;
+    }
+
+    .address {
+        font-size: 0.9rem;
     }
 }
