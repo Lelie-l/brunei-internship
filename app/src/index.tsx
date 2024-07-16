@@ -16,7 +16,7 @@ root.render(
     <HashRouter>
       <Layout>
         <Routes>
-          <Route path="/test" element={<Test />} />
+          <Route path="/test" elemnent={<Test />} />
           <Route path="/" element={<Home />} />
           <Route path="/ResL" element={<ResList />} />
           <Route path = "/Destinations" element = {<TouristDestination/>}/>
