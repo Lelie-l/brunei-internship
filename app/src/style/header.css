@@ -236,6 +236,103 @@ body {
     font-size:1.2rem;
     margin-top: 8px;
 }
+
+.MainContainer-Test {
+    /* background-color: black; */
+    border-radius:10px;
+    height: 110vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+}
+
+.MainContainer-Test img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Row {
+    /* background-color: bisque; */
+    height: 48%;
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+}
+
+.Section0 {
+    /* background-color: purple; */
+    height: auto;
+    width: 32%;
+    border-radius: 15px;
+
+    position: relative;
+    text-align: left;
+    color: white; 
+}
+
+
+.Section1 {
+    /* background-color: purple; */
+    height: auto;
+    width: 32%;
+    border-radius: 15px;
+
+    position: relative;
+    text-align: left;
+    color: white; 
+    transition: width 1s ease;
+}
+
+.Section1:hover {
+    width: 33.5%;
+}
+
+.Section2 {
+    /* background-color: purple; */
+    height: auto ;
+    width: 66%;
+    border-radius: 15px;
+
+    position: relative;
+    text-align: left;
+    color: white;  
+    transition: width 1s ease;
+}
+
+.Section2:hover {
+    width: 67.4%;
+}
+
+.img-test {
+    border-radius: 15px;
+    
+}
+
+.text-test {
+    font-size: 2.7rem;
+    color: black;
+}
+
+.desc-test {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 @media (max-width: 768px) {
     .bodytext {
         /* margin-top: 50px;  */

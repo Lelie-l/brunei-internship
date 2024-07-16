@@ -2,6 +2,7 @@ import "../style/header.css";
 import CreateList from "../components/reservationList/ReservationLists";
 import CreateNavigation from "../components/navigator/Navigation";
 import { scrollToDiv } from "../utils/scrolltoDiv";
+import ImageCollage from "../components/image-display/ImageCollage";
 
 function Home() {
   return (
@@ -18,8 +19,9 @@ function Home() {
       <div className="mural" id="learnmoreresult"></div>
       <CreateNavigation />
       <div className="classreservation "id="mainreservation">
-      <CreateList />
+      {/* <CreateList /> */}
       </div>
+      <ImageCollage />
     </div>
   );
 }
