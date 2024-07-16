@@ -22,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </div>
         <ul className="stuff">
             <li className="item"><Link to="/ResL">Reservation</Link></li>
-            <li className="item"><a href="#things">Things To Do</a></li>
+            <li className="item"><Link to = "/Destinations">Things To Do</Link></li>
             <li className="item"><a href="#about">About Brunei</a></li>
         </ul>
     </header>
