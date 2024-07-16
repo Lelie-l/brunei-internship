@@ -187,7 +187,9 @@ body {
     border-radius: 2rem;
     
 }
-
+.classreservation.column {
+ flex-direction: column;
+}
 .text {
     padding-left: 2vh;
     line-height: 1.3;
