@@ -134,6 +134,7 @@ body {
     width: 100%;
     height: 50px;
     background-color: rgba(201, 202, 203, 0.5);
+    margin-bottom: 2rem;
 }
 
 .buttonNavigation a {
@@ -170,27 +171,35 @@ body {
     width: 30rem;
     height: auto;
     padding: 2vh;
-    background-color: rgba(253, 255, 198, 0.926);
-    box-shadow: 4px 4px 8px #00000073;
+    background-color: rgba(255, 255, 255, 0.926);
+    box-shadow: 4px 4px 8px #ffffff73;
     border-radius: 8px;
+    box-shadow: 1px 1px 1px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .classreservation {
     display:flex;
     justify-content:center;
     margin: 3vh;
-    max-height: 20rem;
-    width: 45vw;
+    max-height: 25rem;
+    width: 100%;
     overflow-y: scroll;
-    border:#000000;
+    /* border:#000000;
     border-width: 5px;
     box-shadow: inset 0 5px 10px #666666;
-    border-radius: 2rem;
-    
+    border-radius: 2rem; */
+    flex-direction: row;
 }
-.classreservation.column {
- flex-direction: column;
-}
+/* .classreservation.column {
+ flex-direction: row;
+} */
 .text {
     padding-left: 2vh;
     line-height: 1.3;

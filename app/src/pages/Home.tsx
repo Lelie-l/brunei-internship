@@ -18,10 +18,10 @@ function Home() {
       </div>
       <div className="mural" id="learnmoreresult"></div>
       <CreateNavigation />
-      <div className="classreservation "id="mainreservation">
-      {/* <CreateList /> */}
-      </div>
       <ImageCollage />
+      <div className="classreservation "id="mainreservation">
+      <CreateList />
+      </div>
     </div>
   );
 }
