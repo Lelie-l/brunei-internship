@@ -16,8 +16,7 @@ body {
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_260033738v2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    display: flex;
+    background-position: center;    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

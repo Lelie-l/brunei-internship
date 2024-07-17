@@ -20,7 +20,7 @@ const ImageCollage: React.FC = () => {
             <div className='Row'>
                 <div className='Section2'>
                     <img className='img-test' src="https://images.unsplash.com/photo-1515859005217-8a1f08870f59?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pic" width="100%"></img>
-                    <div className='desc-test'>Ancient Cities</div>
+                    <div className='desc-test'>Top Attractions</div>
                 </div>
                 <div className='Section1'>
                     <img className='img-test' src="https://i0.wp.com/borneoadventure.com/v3/wp-content/uploads/2012/01/BRN_DK_5221.jpg?fit=2000%2C1331&quality=60&strip=all&ssl=1" alt="pic" width="100%"></img>
