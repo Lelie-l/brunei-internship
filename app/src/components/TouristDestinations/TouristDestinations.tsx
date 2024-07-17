@@ -3,13 +3,15 @@ import './styles.css'
 import data from './TouristDestinations.json';
 import { Slide } from 'react-slideshow-image';
 import wcmatch from 'wildcard-match';
-
+import { useNavigate } from 'react-router-dom';
 export const TouristDestinations: React.FC = () => {
   const tags = ['Cities','Top Attractions','Landmarks', 'Parks', 'Architectural Buildings', 'Religious Sites', 'Food & Drinks', 'Outdoor Activities','Museums', 'Markets'];
   
   const filterContent = (tag:string) => {
   const match = wcmatch(`*${tag}*`);
+ 
    return data.filter(filteredData => match(filteredData.tags));
+   
   }
   const spanStyle = {
     padding: '1rem',
@@ -18,15 +20,23 @@ export const TouristDestinations: React.FC = () => {
   }
   
   const divStyle = {
+    
     display: 'flex',
     alignItems: 'center',
-  
+    borderRadius:'10px',
+    borderStyle:'solid',
+    borderColor:'black',
+    borderWidth:'4px',
     justifyContent: 'center',
     backgroundSize: 'cover',
     height: '25rem',
-    width: '40rem'
+    width: '40rem',
+    cursor:'pointer'
   }
-  
+  const navigate = useNavigate();
+  const handleClick = (content:any) => {
+    navigate('/DestinationInfo', {state: {name: content.name, description: content.description, address:content.address, tags: content.tags, imageSrc:content.imageSrc}})
+  }
   
    
     
@@ -38,10 +48,13 @@ export const TouristDestinations: React.FC = () => {
       <Slide slidesToScroll = {1} slidesToShow = {2} indicators = {true}>
 
         {filterContent(tags[0]).map((content, index) => (
-          <div key={index} style = {{display:'flex', justifyContent:'center'}}>
-           <div style={{ ...divStyle, 'backgroundImage': `url(${content.imageSrc})` }}>
+          <div key={index} style = {{ display:'flex', justifyContent:'center'}}>
+         
+           <div  className = "transImages" style={{'backgroundImage': `url(${content.imageSrc})` }} onClick = {()=> handleClick(content)}>
+        
         <span style = {spanStyle}><h1>{content.name}</h1></span>
-         </div>
+        </div>
+    
           </div>
         ))}
       </Slide>
@@ -51,7 +64,7 @@ export const TouristDestinations: React.FC = () => {
        >
         {filterContent(tags[1]).map((content,index) => (
           <div key = {index} style = {{display:'flex', justifyContent:'center'}}>
-            <div style = {{...divStyle, 'backgroundImage': `url(${content.imageSrc})`}}>
+            <div className ="transImages" style = {{ 'backgroundImage': `url(${content.imageSrc})`}} onClick = {()=> handleClick(content)}>
               <span style = {spanStyle}><h1>{content.name}</h1></span>
             </div>
 
@@ -65,7 +78,7 @@ export const TouristDestinations: React.FC = () => {
        >
         {filterContent(tags[2]).map((content,index) => (
           <div key = {index} style = {{display:'flex', justifyContent:'center'}}>
-            <div style = {{...divStyle, 'backgroundImage': `url(${content.imageSrc})`}}>
+            <div className = "transImages" style = {{'backgroundImage': `url(${content.imageSrc})`}} onClick = {()=> handleClick(content)}>
               <span style = {spanStyle}><h1>{content.name}</h1></span>
             </div>
 
@@ -79,10 +92,11 @@ export const TouristDestinations: React.FC = () => {
        >
         {filterContent(tags[3]).map((content,index) => (
           <div key = {index} style = {{display:'flex', justifyContent:'center'}}>
-            <div style = {{...divStyle, 'backgroundImage': `url(${content.imageSrc})`}}>
+            <div   className = "transImages" style = {{ 'backgroundImage': `url(${content.imageSrc})`}} onClick = {() => handleClick(content)}>
+              
               <span style = {spanStyle}><h1>{content.name}</h1></span>
             </div>
-
+              
           </div>
       ))}
 
