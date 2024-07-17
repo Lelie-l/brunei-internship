@@ -19,9 +19,7 @@ function Home() {
       <div className="mural" id="learnmoreresult"></div>
       <CreateNavigation />
       <ImageCollage />
-      <div className="hotelButtonLayout">
-        <h1 className="showHotels" id="topHotels">Hotels</h1>
-      </div>
+      <h1 className="showHotels" id="topHotels">Hotels</h1>
       <div className="classreservation "id="mainreservation">
         <CreateList />
       </div>
