@@ -4,7 +4,7 @@
         "name": "Omar Ali Saifuddien Mosque",
         "description": "This magnificent mosque sits at the very heart of the capital city and the country's Islamic faith. Built in 1958 and named after the 28th Sultan Of Brunei, it is one of the most impressive mosques in South-East Asia. Set amid its own lagoon, the mosque seems to be floating, surrounded by lush greenery and floral gardens, while its glittering dome, covered in real gold, soars above the skyline. Featuring luminous stained glass windows, floors of gleaming Italian marble, walls of Shanghai granite, chandeliers from Britain and Carpets from Saudi Arabia, the mosque brings together the world's best materials in a tour de force of architectural beauty and spiritual ambience. A marble bridge across the lagoon brings you to a replica of a 16th century Royal Barge, which used to host religious ceremonies, like Quran reading competitions. At night, the mosque is illuminated, making it a vision to be seen. Opening Hours : Sun-Wed, 8am until 5:30pm, EXCEPT at Prayer times Closed : Thurs-Fri Shoes are to be removed before entering. Dress appropriately For Men : No shorts, No Sleeveless ( wear long pants) For Women : No singlets, No shorts, must cover leg ( wear Long pants)",
         "address": "Jalan McArthur, Bandar Seri Begawan BS8711, Brunei",
-        "tags": "Architectural Buildings, Religious Sites, Top Attractions",
+        "tags": "Architectural Buildings, Landmarks, Mosques,Religious Sites, Top Attractions",
         "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg/2560px-Sultan_Omar_Ali_Saifuddin_Mosque_02.jpg"
     },
     {
@@ -21,7 +21,7 @@
         "name": "Jame'Asr Hassanil Bolkiah Mosque",
         "description": "This ornately decorated mosque, built in 1994, is surrounded by landscaped gardens and fountains. This mosque is a fine example of Islamic architecture carried out with a devotion to details. Opening hours : Sun to Wed Time : 8am- 12noon , 2pm-3pm and 5pm-6pm Open on Saturdays if there is no official function the following day. Closed Thurs- Fri Shoes are to be removed before entering Admission Free.",
         "address": "Simpang 127, Bandar Seri Begawan, Brunei",
-        "tags": "Religious Sites, Top Attractions",
+        "tags": "Religious Sites, Mosques, Top Attractions",
         "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/4/45/BN-bsb-jame-asr-hassanil-m-2.jpg"
     },
     {
@@ -37,7 +37,7 @@
         "name": "Istana Nurul Iman",
         "description": "The official residence of the Sultan of Brunei, Istana Nurul Iman is considered the world's largest residential palace. Its opulence is unmatched, with over 1,700 rooms, 257 bathrooms, and a banquet hall that can accommodate up to 5,000 guests. Visitors can marvel at the palace's grandeur during Hari Raya, when it is open to the public for three days.",
         "address": "Bandar Seri Begawan, Brunei",
-        "tags": "Architectural Buildings, Top Attractions",
+        "tags": "Architectural Buildings, Landmarks, Top Attractions",
         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Istana-nurul-iman.jpg/1200px-Istana-nurul-iman.jpg"
     },
     {
@@ -45,7 +45,7 @@
         "name": "Ulu Temburong National Park",
         "description": "Ulu Temburong National Park, often referred to as the 'Green Jewel of Brunei,' offers an untouched rainforest experience. Accessible via boat and a series of steps and walkways, visitors can enjoy canopy walks, river tubing, and diverse wildlife. It's a haven for nature enthusiasts and adventure seekers alike.",
         "address": "Temburong District, Brunei",
-        "tags": "Parks, Outdoor Activities, Top Attractions",
+        "tags": "Parks, Outdoor Activities, Landmarks, Top Attractions",
         "imageSrc":"https://www.bruneitourism.com/wp-content/uploads/2019/10/Brunei-travel-adventure-packages.jpg"
     },
     {
@@ -70,7 +70,7 @@
         "description": "The Royal Regalia Museum in Bandar Seri Begawan houses an extensive collection of royal artifacts, including ceremonial weapons, jeweled crowns, and the Sultan's golden chariot. The museum provides an insight into the opulent lifestyle of Brunei's monarchy and is a must-visit for those interested in the nation's royal heritage.",
         "address": "Jalan Sultan, Bandar Seri Begawan, Brunei",
         "tags": "Museums, Landmarks, Top Attractions",
-        "imageSrc":"https://gcs.tripi.vn/public-tripi/tripi-feed/img/474250MKI/pasar-pelbagai-barangan-ivivu.jpg"
+        "imageSrc":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c9/6d/05/royal-regalia-museum.jpg?w=1200&h=-1&s=1"
     },
     {
         "id": 10,
@@ -96,5 +96,39 @@
        "tags":"Cities",
        "imageSrc":"https://t-2.tstatic.net/bangka/foto/bank/images/20020512-Jerudong-Park-di-Brunei-Darussalam.jpg"
 
-     }
+     },
+     {
+        "id":13,
+        "name":"Pelumpong Spit",
+        "description": "Pelumpong Spit is the easternmost point in the Brunei-Muara district of Brunei. Despite its name being labeled as a spit, it is now an island due to the artificially constructed 50m-wide, 10m-deep Muara cut, which separated the spit from the mainsland provide access to Muara Port.",
+        "address": "Brunei Bay, Brunei-Muara District",
+        "tags": "Islands",
+        "imageSrc":"https://media-cdn.tripadvisor.com/media/photo-m/1280/14/5c/e5/88/fun-group-and-teambuilding.jpg"
+     },
+     {
+        "id":14,
+        "name": "Cermin Island",
+        "description":"Cermin Island is an islet at the mouth of Brunei River in the Mukim Kota Batu, Brunei-Muara District, Brunei. During the Brunei Civil War, a battle unfolded on the island. The island is home to sundry vegetation and swamp forests.",
+        "address":"Brunei Bay, Brunei-Muara District",
+        "tags":"Islands",
+        "imageSrc":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d1/0c/87/amazing-labuan-cermin.jpg?w=1200&h=1200&s=1"
+     },
+     {
+        "id":15,
+        "name":"Sibungor Island",
+        "description":"Sibungor Island is an islet on the Brunei River in Brunei-Muara District, Brunei. The island is home to proboscis monkeys and forest swamps.",
+        "address":"Brunei River, Brunei-Muara District",
+        "tags":"Islands",
+        "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Pulau_Sibungor_%2819042022-3%29.jpg/800px-Pulau_Sibungor_%2819042022-3%29.jpg"
+
+    },
+    {
+        "id":16,
+        "name":"Teng Yun Temple",
+        "description":"Teng Yun Temple is a Taoist temple located on the main street that lies along the river. The Chinese architecture stands out from its surroundings and has a beautiful appearance.",
+        "address":"Jalan Sunggai Kianggeh Jalan Elizabeth Dua, Bandar Seri Begawan BS8111 Brunei Darussalam",
+        "tags":"Temples",
+        "imageSrc":"https://cdn.idntimes.com/content-images/community/2021/11/supernathant97-blrjlknnrkz-899b59f0f65acad798d392c407f4ab92-e055249c0a04350f36e3ec153e75632b.jpg"
+    }
+    
 ]
