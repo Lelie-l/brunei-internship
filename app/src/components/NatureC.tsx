@@ -10,11 +10,11 @@ export const NatureC: React.FC = () => {
     return data.filter((filteredData) => match(filteredData.tags));
   };
 
-  const spanStyle = {
-    padding: "1rem",
-    background: "#efefef",
-    color: "#000000",
-  };
+  // const spanStyle = {
+  //   padding: "1rem",
+  //   background: "#efefef",
+  //   color: "#000000",
+  // };
   const navigate = useNavigate();
   const handleClick = (content: any) => {
     navigate("/DestinationInfo", {
@@ -67,12 +67,12 @@ export const NatureC: React.FC = () => {
             paddingLeft: "50px",
           }}
         >
-          <h1>Parks</h1>
+          <h1 className="explainHead">Parks.</h1>
 
-          <h2>
+          <p className="explainBody">
             The parks in Brunei have everything there is to experience about
             nature, ranging from wildlife to extreme outbound activities
-          </h2>
+          </p>
         </div>
         <img
           style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
@@ -80,8 +80,8 @@ export const NatureC: React.FC = () => {
         />
       </div>
       <div></div>
-      <div>
-        <h1 style={{ marginLeft: "20px" }}>Parks</h1>
+      <div className="pageSection">
+        <h1 style={{ marginLeft: "20px" }}>Popular Parks</h1>
         <br></br>
         <Slide slidesToScroll={1} slidesToShow={2} indicators={true}>
           {filterContent("Park").map((content, index) => (
@@ -94,12 +94,12 @@ export const NatureC: React.FC = () => {
                 style={{ backgroundImage: `url(${content.imageSrc})` }}
                 onClick={() => handleClick(content)}
               >
-                <span style={spanStyle}>
-                  <h1>{content.name}</h1>
+                <span className="contentcontainer">
+                  <p className="contentname">{content.name}</p>
                 </span>
               </div>
             </div>
-          ))}
+          ))} 
         </Slide>
       </div>
 
@@ -112,12 +112,12 @@ export const NatureC: React.FC = () => {
             paddingRight: "50px",
           }}
         >
-          <h1>Islands</h1>
+          <h1 className="explainHead">Islands.</h1>
 
-          <h2>
+          <p className="explainBody">
             Brunei's islands make for some of the best vacation spots for
             sightseeing and relaxation.
-          </h2>
+          </p>
         </div>
         <img
           style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
@@ -138,8 +138,8 @@ export const NatureC: React.FC = () => {
                 style={{ backgroundImage: `url(${content.imageSrc})` }}
                 onClick={() => handleClick(content)}
               >
-                <span style={spanStyle}>
-                  <h1>{content.name}</h1>
+                <span className="contentcontainer">
+                  <p className="contentname">{content.name}</p>
                 </span>
               </div>
             </div>
