@@ -16,13 +16,15 @@
 
 .formatTag {
     color: red;
+    font-weight: bold;
 }
 
-.imgStyle {
+.imageStyle {
     margin-top: 1vh;
     width: 100%;
     height: auto;
     max-height: 1151px;
+    border-radius: 20px;
 }
 
 .contentBody {
