@@ -9,7 +9,9 @@ const BeautifulCities = () => {
         </div>
         <CreateNavigation/>
 
-    <BeautifulCitiesC/>
+    <div className="formatContent">
+      <BeautifulCitiesC/>
+    </div>
     </div>
   )
 }

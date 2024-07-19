@@ -3,6 +3,8 @@ import wcmatch from "wildcard-match";
 import data from "./TouristDestinations/TouristDestinations.json";
 import { Slide } from "react-slideshow-image";
 import { useNavigate } from "react-router-dom";
+import "../style/secondary-page.css";
+
 export const NatureC: React.FC = () => {
   const filterContent = (tag: string) => {
     const match = wcmatch(`*${tag}*`);
@@ -30,7 +32,7 @@ export const NatureC: React.FC = () => {
 
   return (
     <div>
-      <div style={{ display: "flex", flexDirection: "row", margin: "75px" }}>
+      <div style={{ display: "flex", flexDirection: "row", marginBottom: "6rem" }}>
         <div
           style={{
             display: "flex",
@@ -47,7 +49,7 @@ export const NatureC: React.FC = () => {
         </div>
 
         <img
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
           src="https://green-brunei.com/wp-content/uploads/2022/09/Tasek-Merimbun-1-jpg.jpg"
           alt="scenery.jpg"
         />
@@ -56,7 +58,7 @@ export const NatureC: React.FC = () => {
         style={{
           display: "flex",
           flexDirection: "row-reverse",
-          margin: "75px",
+          marginBottom: "6rem",
         }}
       >
         <div
@@ -79,7 +81,7 @@ export const NatureC: React.FC = () => {
           src="https://www.bruneitourism.com/wp-content/uploads/2020/04/ATV-Adventure-Brunei-2020.jpg"
         />
       </div>
-      <div></div>
+
       <div className="pageSection">
         <h1 style={{ marginLeft: "20px" }}>Popular Parks</h1>
         <br></br>
@@ -103,7 +105,7 @@ export const NatureC: React.FC = () => {
         </Slide>
       </div>
 
-      <div style={{ display: "flex", flexDirection: "row", margin: "75px" }}>
+      <div className="contentSection">
         <div
           style={{
             display: "flex",
@@ -124,7 +126,7 @@ export const NatureC: React.FC = () => {
           src="https://ponidivers.com/ponidivers/wp-content/uploads/sites/2/2021/08/Pelong-Rock-1-Jack-Fish-min-compressed-scaled.jpg"
         />
       </div>
-      <div>
+      <div className="pageSection">
         <h1 style={{ marginLeft: "20px" }}>Islands</h1>
         <br></br>
         <Slide slidesToScroll={1} slidesToShow={2} indicators={true}>

@@ -10,7 +10,10 @@ const Nature = () => {
     
     <CreateNavigation/>
 
-    <NatureC/>
+    <div className="formatContent">
+      <NatureC/>
+    </div>
+    
     </div>
   )
 }
