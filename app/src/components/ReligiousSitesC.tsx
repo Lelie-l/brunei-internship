@@ -32,7 +32,7 @@ export const ReligiousSitesC: React.FC = () => {
 
   return (
     <div>
-      <div style={{ display: "flex", flexDirection: "row", margin: "75px" }}>
+      <div className="contentSection">
         <div
           style={{
             display: "flex",
@@ -49,7 +49,7 @@ export const ReligiousSitesC: React.FC = () => {
         </div>
 
         <img
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAF6h_GeQBOLX1HNoRzmSp4BoGKWeYfAzBgRNNCVlRelBcwyQKNFsTsGYGCwQyIp2dnG9ueAU1-IF3bTX4s2lfLvpkWXTmkTd6wI_z3q3idmrY_yf7wvK590JeUR_bXhMGy8L7rLWOapGi/s1600/proud+to+be+bruneian7.jpg"
         />
       </div>
@@ -57,7 +57,7 @@ export const ReligiousSitesC: React.FC = () => {
         style={{
           display: "flex",
           flexDirection: "row-reverse",
-          margin: "75px",
+          marginBottom: "6rem",
         }}
       >
         <div
@@ -81,7 +81,7 @@ export const ReligiousSitesC: React.FC = () => {
         />
       </div>
       <div></div>
-      <div>
+      <div className="pageSection">
         <h1 style={{ marginLeft: "20px" }}>Mosques</h1>
         <br></br>
         <Slide slidesToScroll={1} slidesToShow={1} indicators={true}>
@@ -96,7 +96,7 @@ export const ReligiousSitesC: React.FC = () => {
                 onClick={() => handleClick(content)}
               >
                 <span className="contentcontainer">
-                  <h1 className="contentname">{content.name}</h1>
+                  <p className="contentname">{content.name}</p>
                 </span>
               </div>
             </div>
@@ -104,7 +104,7 @@ export const ReligiousSitesC: React.FC = () => {
         </Slide>
       </div>
 
-      <div style={{ display: "flex", flexDirection: "row", margin: "75px" }}>
+      <div className="contentSection">
         <div
           style={{
             display: "flex",
@@ -113,20 +113,20 @@ export const ReligiousSitesC: React.FC = () => {
             paddingRight: "50px",
           }}
         >
-          <h1>Temples</h1>
+          <h1 className="explainHead">Temples</h1>
 
-          <h2>
+          <p className="explainBody">
             Just like it's mosques, Brunei's temples showcase a mix of divinity
             and architectural wonder that cannot be found in any other part of
             the world.
-          </h2>
+          </p>
         </div>
         <img
           style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bandar_Seri_Begawan_Bangunan_Guru_GM_0004.jpg/640px-Bandar_Seri_Begawan_Bangunan_Guru_GM_0004.jpg"
         />
       </div>
-      <div>
+      <div className="pageSection">
         <h1 style={{ marginLeft: "20px" }}>Temples</h1>
         <br></br>
         <Slide slidesToScroll={1} slidesToShow={1} indicators={true}>
@@ -141,7 +141,7 @@ export const ReligiousSitesC: React.FC = () => {
                 onClick={() => handleClick(content)}
               >
                 <span className="contentcontainer">
-                  <h1 className="contentname">{content.name}</h1>
+                  <p className="contentname">{content.name}</p>
                 </span>
               </div>
             </div>

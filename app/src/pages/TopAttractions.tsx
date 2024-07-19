@@ -11,7 +11,7 @@ const TopAttractions = () => {
       </div>
       <CreateNavigation/>
 
-      <div className="top-attractions">
+      <div className="formatContent">
         <TopAttractionsC/>
       </div>
 

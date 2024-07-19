@@ -9,7 +9,10 @@ const ReligiousSites = () => {
         </div>
    
     <CreateNavigation/>
+
+    <div className="formatContent">
     <ReligiousSitesC/>
+    </div>
 </div>
   )
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-.top-attractions {
+.formatContent {
     width: 100%;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -57,6 +57,7 @@ h2 {
     flex-direction: row;
     margin-bottom: 6rem;
 }
+
 
 .imgStyle {
     border-radius: 20px;
