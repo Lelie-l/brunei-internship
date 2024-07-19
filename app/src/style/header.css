@@ -209,15 +209,15 @@ body {
     display: flex;
     align-items:center;
     border-radius:10px;
-    border-style:solid;
-    border-color:black;
+    /* border-style:solid;
+    border-color:black; */
     border-width:4px;
     justify-content: center;
     background-size: cover;
-    height: 25rem;
-    width: 40rem;
+    height: 15rem;
+    width: 30rem;
     cursor:pointer;
-   
+    margin: 10px
 }
 /* .text {
     padding-left: 2vh;
