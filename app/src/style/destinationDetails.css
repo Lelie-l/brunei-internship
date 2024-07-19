@@ -1,11 +1,45 @@
-.boxContainer {
-    margin:20px;
-    margin-top:50px;
-    display:flex;
-    flex-direction:row;
-    width: 75rem;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.contentContainer {
+    margin-top: 10vh;
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
     height: auto;
-    padding: 2vh;
-    background-color: rgba(253, 255, 198, 0.926);
-    
+}
+
+.contentLocation {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #686867;
+}
+
+.formatTag {
+    color: red;
+}
+
+.imgStyle {
+    margin-top: 1vh;
+    width: 100%;
+    height: auto;
+    max-height: 1151px;
+}
+
+.contentBody {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rowLayout {
+    display: flex;
+    gap: 1rem;
+}
+
+.bodyText {
+    font-family: "Manrope", sans-serif;
+    font-size: 1rem;
+}
+
+iframe {
+    margin-bottom: 1rem;
 }

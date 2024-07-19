@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     var currentScrollPos = window.pageYOffset;
     const header = document.getElementById("header");
     if (header) {
-      if (currentScrollPos > 500) {
+      if (currentScrollPos > 200) {
         header.style.top = "-50px";
       } else {
         header.style.top = "0px";

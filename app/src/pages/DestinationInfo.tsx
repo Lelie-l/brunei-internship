@@ -1,11 +1,15 @@
 import React from 'react'
 import { DestinationDetails } from '../components/DestinationDetails'
+import "../style/secondary-page.css";
+
 const DestinationInfo = () => {
     
    
   return (
-    <div className = "classreservation" id = "mainreservation">
-    <DestinationDetails/>
+    <div>
+      <div className="detailsContainer">
+        <DestinationDetails/>
+      </div>
     </div>
   )
 }

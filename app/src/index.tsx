@@ -24,13 +24,15 @@ root.render(
           <Route path="/" element={<Home />} />
           <Route path="/ResL" element={<ResList />} />
           <Route path = "/Destinations" element = {<TouristDestination/>}/>
-          <Route path = "/DestinationInfo" element = {<DestinationInfo/>}/>
           <Route path = "/top-attractions" element = {<TopAttractions/>}/>
           <Route path = "/nature" element = {<Nature/>}/>
           <Route path = "/beautiful-cities" element = {<BeautifulCities/>}/>
           <Route path = "/religious-sites" element = {<ReligiousSites/>}/>
         </Routes>
       </Layout>
+        <Routes>
+          <Route path = "/DestinationInfo" element = {<DestinationInfo/>}/>
+        </Routes>
     </HashRouter>
   </React.StrictMode>
 );
