@@ -12,12 +12,14 @@ import BeautifulCities from './pages/BeautifulCities';
 import Nature from './pages/Nature';
 import TopAttractions from './pages/TopAttractions';
 import ReligiousSites from './pages/ReligiousSites';
+import ScrollToTop from './scrollToTop'; //component so to make sure navigation loads pages at the top of the page
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <HashRouter>
+      <ScrollToTop/> 
       <Layout>
         <Routes>
           <Route path="/test" element={<Test />} />
