@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.submitButton {
+    border-style:hidden;
+    border-radius:11px;
+    width:auto;
+    height: auto;
+    padding:10px;
+    float:right;
+    font-size:13px;
+    background-color: linear-gradient(0deg, rgba(201, 202, 203, 1),white); 
+    transition: background-color 0.3s ease;
+    font-family: "Manrope", sans-serif;
+}
+
+.submitButton:hover {
+    cursor:pointer;
+    background-color:rgb(201, 202, 203);
+}
+
+.hidden-form {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    width: 0;
+    height: 0;
+    background-image: white;
+    border-style: hidden;
+    border-radius:11px;
+    z-index: 10;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-size: 0.8rem;
+    font-family: "Manrope", sans-serif;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #6f5252;
+    background-color: inherit;
+}
+
+.inputField {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form  {      
+    display: flex;
+    padding: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 0.5rem;
+}

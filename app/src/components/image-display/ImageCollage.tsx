@@ -1,6 +1,7 @@
 import React from 'react'; // Adjust the path based on your file location
 import '../../style/header.css';
 import { Link } from 'react-router-dom';
+
 const ImageCollage: React.FC = () => {
     return(
         <div className='MainContainer-Test'>

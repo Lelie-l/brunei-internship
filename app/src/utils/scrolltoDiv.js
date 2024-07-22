@@ -1,5 +1,5 @@
+import data from '../assets/img/airportStuff.json'
 
-import data from '../assets/airportStuff.json'
 export function scrollToDiv(divId) {
     const targetDiv = document.getElementById(divId);
     if (targetDiv) {
@@ -7,16 +7,16 @@ export function scrollToDiv(divId) {
         targetDiv.scrollIntoView({ behavior: 'smooth' });
     }
 }
-
-export const PopUpForm  =()  =>{
-    function formatDate(dateString) {
+    
+export function formatDate(dateString) {
         const date = new Date(dateString);
         const year = date.getFullYear().toString().slice(-2); // Last two digits of the year
         const month = ('0' + (date.getMonth() + 1)).slice(-2); // Month (01-12)
         const day = ('0' + date.getDate()).slice(-2); // Day (01-31)
         return `${year}${day}${month}`;
     }
-    function search(event) {
+
+export function search(event) {
         event.preventDefault()
     const departureCode = document.getElementById('departure').value;
     const destinationCode = document.getElementById('destination').value;
@@ -30,38 +30,21 @@ export const PopUpForm  =()  =>{
     console.log(desDate);
     window.location.href = `https://www.skyscanner.co.id/transport/flights/${departure}/${destination}/${desDate}/${retDate}/?cabinclass=${flightClass}=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false`
     }
-    const fetchData = Object.entries(data).map(([countryName, countryCode]) => (
-        <option key={countryName} value={countryName}/>
-    ));
-    return(
-        <div  id="form" className = "hidden-form">
-            <form id="flightSearch" onSubmit = {search}>
-                <label htmlFor="departure">City of Departure: </label>
-                <input list = "datalist" type="text" id="departure" name="departure" required /><br /><br />
-                <datalist id = "datalist">
-                    {fetchData}
-                </datalist>
 
-                <label htmlFor="destination">City of Destination: </label>
-                <input type="text" list = "datalist"id="destination" name="destination" required /><br /><br />
+export function initFlightDropDown() {
+    const hiddenform = document.querySelector(".hidden-form");
+    if (hiddenform.style.visibility === "visible") {
+        hiddenform.style.transition = "opacity 0s ease, height 1s ease, width 1s ease, visibility 1s ease";
+        hiddenform.style.visibility = "hidden";
+        hiddenform.style.opacity = "0";
+        hiddenform.style.width = "0";
+        hiddenform.style.height = "0";
 
-                <label htmlFor="departureDate">Departure Date: </label>
-                <input type="date" id="departureDate" name="departureDate" required /><br /><br />
-
-                <label htmlFor="returnDate">Return Date: </label>
-                <input type="date" id="returnDate" name="returnDate" /><br /><br />
-                <label>Flight Class: </label>
-                <br></br>
-                <select id = "flightclass">
-                    <option value = "economy">Economy Class</option>
-                    <option value = "business">Business Class</option>
-                    <option value = "premium">Premium Class</option>
-                    <option value = "first">First Class</option>
-                </select>
-                <br></br>
-                <button className = "submitButton" type="submit">Search Flights</button>
-
-            </form>
-        </div>
-    )
+    } else {
+        hiddenform.style.transition = "opacity 2s ease, height 0.7s ease, width 1s ease, visibility 1s ease";
+        hiddenform.style.visibility = "visible";
+        hiddenform.style.height = "10vh";
+        hiddenform.style.width = "100%";
+        hiddenform.style.opacity = "1";
+    }
 }
