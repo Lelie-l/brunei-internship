@@ -3,7 +3,8 @@ import '../../style/header.css';
 import hotelimg from '../../assets/img/bed.png';
 import monumentimg from '../../assets/img/monument.png';
 import planeimg from '../../assets/img/plane.png'
-import { scrollToDiv, PopUpForm } from "../../utils/scrolltoDiv";
+import { scrollToDiv } from "../../utils/scrolltoDiv";
+import { initFlightDropDown } from "../../utils/scrolltoDiv";
 
 const CreateNavigation: React.FC = () => {
     
@@ -18,9 +19,8 @@ const CreateNavigation: React.FC = () => {
             <a onClick={() => scrollToDiv('mainreservation')}>
                 <img src={hotelimg} alt="hotel" height="18px" /><p>Accommodations</p>
             </a>
-            <a className = "flight">
+            <a onClick={initFlightDropDown} id="flightButton">
             <img src={planeimg} alt="hotel" height="18px" /><p>Flights</p>
-            <PopUpForm/>
             </a>
         </div>
     );

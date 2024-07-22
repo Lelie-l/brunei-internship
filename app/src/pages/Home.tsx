@@ -3,6 +3,7 @@ import CreateList from "../components/reservationList/ReservationLists";
 import CreateNavigation from "../components/navigator/Navigation";
 import { scrollToDiv } from "../utils/scrolltoDiv";
 import ImageCollage from "../components/image-display/ImageCollage";
+import FlightDropDown from "../components/flight/FlightPopup";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       </div>
       <div className="mural" id="learnmoreresult"></div>
       <CreateNavigation />
+      <FlightDropDown />
       <ImageCollage />
       <h1 className="showHotels" id="topHotels">Hotels</h1>
       <div className="classreservation "id="mainreservation">
