@@ -23,13 +23,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <header id="header" className="header">
-          <div className="logo">
-              <h1>Br<span className="white">u</span><span className="black">n</span>ei<span className="white">.</span></h1>
+          <div className="logo" >
+          <Link to ="/"><h1>Br<span className="white">u</span><span className="black">n</span>ei<span className="white">.</span></h1></Link>
           </div>
           <ul className="stuff">
               <li className="item"><Link to="/ResL">Reservation</Link></li>
               <li className="item"><Link to="/Destinations">Things To Do</Link></li>
-              <li className="item"><a href="#about">About Brunei</a></li>
+           
           </ul>
       </header>
       <main>
