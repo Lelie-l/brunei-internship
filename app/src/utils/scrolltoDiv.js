@@ -39,6 +39,7 @@ export function initFlightDropDown() {
         hiddenform.style.opacity = "0";
         hiddenform.style.width = "0";
         hiddenform.style.height = "0";
+        hiddenform.style.marginBottom = "0";
 
     } else {
         hiddenform.style.transition = "opacity 2s ease, height 0.7s ease, width 1s ease, visibility 1s ease";
@@ -46,5 +47,6 @@ export function initFlightDropDown() {
         hiddenform.style.height = "10vh";
         hiddenform.style.width = "100%";
         hiddenform.style.opacity = "1";
+        hiddenform.style.marginBottom = "2rem";
     }
 }
