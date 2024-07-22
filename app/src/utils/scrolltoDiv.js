@@ -14,7 +14,7 @@ export const PopUpForm  =()  =>{
         const year = date.getFullYear().toString().slice(-2); // Last two digits of the year
         const month = ('0' + (date.getMonth() + 1)).slice(-2); // Month (01-12)
         const day = ('0' + date.getDate()).slice(-2); // Day (01-31)
-        return `${year}${day}${month}`;
+        return `${year}${month}${day}`;
     }
     function search(event) {
         event.preventDefault()
@@ -28,7 +28,7 @@ export const PopUpForm  =()  =>{
     const retDate = formatDate(returnDate);
     const flightClass = document.getElementById('flightclass').value
     console.log(desDate);
-    window.location.href = `https://www.skyscanner.co.id/transport/flights/${departure}/${destination}/${desDate}/${retDate}/?cabinclass=${flightClass}=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false`
+    window.open( `https://www.skyscanner.co.id/transport/flights/${departure}/${destination}/${desDate}/${retDate}/?cabinclass=${flightClass}=&ref=home&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false`, '_blank')
     }
     const fetchData = Object.entries(data).map(([countryName, countryCode]) => (
         <option key={countryName} value={countryName}/>
