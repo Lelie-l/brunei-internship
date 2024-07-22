@@ -1,5 +1,5 @@
 import React from "react";
-import data from '../../assets/img/airportStuff.json';
+import data from '../../assets/airportStuff.json';
 import { search } from "../../utils/scrolltoDiv";
 import '../../style/flightPopup.css';
 

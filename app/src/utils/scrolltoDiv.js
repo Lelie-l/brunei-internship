@@ -1,4 +1,4 @@
-import data from '../assets/img/airportStuff.json'
+import data from '../assets/airportStuff.json'
 
 export function scrollToDiv(divId) {
     const targetDiv = document.getElementById(divId);
