@@ -50,7 +50,9 @@ const CreateList: React.FC = () => {
                         <h3>{renderStars(data[currentIndex].rating)}</h3>
                         <p>{data[currentIndex].description}</p>
                         <p>Price: ${data[currentIndex].currentPrice}</p>
-                        <a href={data[currentIndex].book}>Book Here</a>
+                        <div className = "booking">
+                        <a className = "book" href={data[currentIndex].book}>Book Here</a>
+                        </div>
                     </div>
                 </div>
             </div>
