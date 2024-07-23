@@ -562,6 +562,7 @@ a {
     height:55%;
     width:70%;
     overflow-y:scroll;
+    scrollbar-color: rgba(0,0,0,0.5) white;
     
     }
     .imageContainer {
