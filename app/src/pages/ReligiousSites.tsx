@@ -8,7 +8,9 @@ const ReligiousSites = () => {
         <h1 style = {{fontSize:'40px'}}>Religious Sites</h1>
         </div>
    
-    <CreateNavigation/>
+        <div style={{marginBottom: "2rem"}}>
+          <CreateNavigation />
+        </div>
 
     <div className="formatContent">
     <ReligiousSitesC/>

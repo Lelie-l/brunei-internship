@@ -9,7 +9,10 @@ const TopAttractions = () => {
       <div className = "bodytext" style = {{alignItems:'center',backgroundImage: 'url(https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1577454517/bitsxokn1visre3foklw.jpg)'}}>
         <h1 style = {{fontSize:'40px'}}>Top Attractions</h1>
       </div>
-      <CreateNavigation/>
+
+      <div style={{marginBottom: "2rem"}}>
+        <CreateNavigation />
+      </div>
 
       <div className="formatContent">
         <TopAttractionsC/>
