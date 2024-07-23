@@ -59,6 +59,13 @@ h2 {
     justify-content: center;
 }
 
+.contentSection-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 6rem;
+    justify-content: center;
+}
+
 .textContainer {
     display: flex;
     flex-direction: column;
@@ -80,5 +87,16 @@ h2 {
     .contentSection {
         flex-direction: column-reverse;
         gap: 0.5rem;
+    }
+
+    .contentSection-reverse {
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+    }
+
+    .imgStyle {
+        width: 80vw;
+        align-self: center;
+        height: auto;
     }
 }

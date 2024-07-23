@@ -56,19 +56,21 @@ export const ReligiousSitesC: React.FC = () => {
         />
       </div>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "row-reverse",
-          marginBottom: "6rem",
-        }}
+        // style={{
+        //   display: "flex",
+        //   flexDirection: "row-reverse",
+        //   marginBottom: "6rem",
+        // }}
+        className="contentSection-reverse"
       >
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingLeft: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingLeft: "50px",
+          // }}
+          className="textContainer"
         >
           <h1 className="explainHead">Mosques</h1>
 
@@ -78,7 +80,8 @@ export const ReligiousSitesC: React.FC = () => {
           </p>
         </div>
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://images.squarespace-cdn.com/content/v1/5e72c8bfe21ad940ba788673/1621093358865-V8GSOPP5UHSPDM2S27YY/hassanil-bolkiah-mosque-lot.jpeg"
         />
       </div>
@@ -125,7 +128,8 @@ export const ReligiousSitesC: React.FC = () => {
           </p>
         </div>
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bandar_Seri_Begawan_Bangunan_Guru_GM_0004.jpg/640px-Bandar_Seri_Begawan_Bangunan_Guru_GM_0004.jpg"
         />
       </div>

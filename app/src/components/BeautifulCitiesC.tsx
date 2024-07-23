@@ -34,12 +34,13 @@ export const BeautifulCitiesC: React.FC = () => {
     <div>
       <div className="contentSection">
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingRight: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingRight: "50px",
+          // }}
+          className="textContainer"
         >
           <h1 className="explainHead">Cities.</h1>
           <p className="explainBody">
@@ -50,13 +51,14 @@ export const BeautifulCitiesC: React.FC = () => {
         </div>
 
         <img
-          style={{ borderRadius: "20px", width: "35rem", height: "25rem" }}
+          // style={{ borderRadius: "20px", width: "35rem", height: "25rem" }}
+          className="imgStyle"
           src="https://images.squarespace-cdn.com/content/v1/5e72c8bfe21ad940ba788673/1621101929190-UPTDOEPKKE7P210WA4XN/bandar-seri-begawan-pusat-bandar-city-center.jpg"
         />
       </div>
 
       <div>
-        <h1 style={{ marginLeft: "20px" }}>Popular Cities</h1>
+        <h1>Popular Cities</h1>
         <br></br>
         <Slide slidesToScroll={1} slidesToShow={1} indicators={true}>
           {filterContent("Cities").map((content, index) => (

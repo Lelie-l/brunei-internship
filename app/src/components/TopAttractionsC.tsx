@@ -57,12 +57,13 @@ export const TopAttractionsC: React.FC = () => {
 
       <div className="contentSection">
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingRight: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingRight: "50px",
+          // }}
+          className="textContainer"
         >
           <h1 className="explainHead">Dining.</h1>
 
@@ -73,7 +74,8 @@ export const TopAttractionsC: React.FC = () => {
           </p>
         </div>
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://images.squarespace-cdn.com/content/v1/5e72c8bfe21ad940ba788673/1621098958484-IPJVGUD743UPCHLEK8J6/ambuyat-with-cacah-set.jpg"
         />
       </div>

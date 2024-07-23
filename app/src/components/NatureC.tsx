@@ -32,14 +32,18 @@ export const NatureC: React.FC = () => {
 
   return (
     <div>
-      <div style={{ display: "flex", flexDirection: "row", marginBottom: "6rem" }}>
+      <div 
+      // style={{ display: "flex", flexDirection: "row", marginBottom: "6rem" }}
+      className="contentSection"
+      >
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingRight: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingRight: "50px",
+          // }}
+          className="textContainer"
         >
           <h2>
             Brunei is filled with wondrous natural places with overwhelmingly
@@ -49,25 +53,28 @@ export const NatureC: React.FC = () => {
         </div>
 
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://green-brunei.com/wp-content/uploads/2022/09/Tasek-Merimbun-1-jpg.jpg"
           alt="scenery.jpg"
         />
       </div>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "row-reverse",
-          marginBottom: "6rem",
-        }}
+        // style={{
+        //   display: "flex",
+        //   flexDirection: "row-reverse",
+        //   marginBottom: "6rem",
+        // }}
+        className="contentSection-reverse"
       >
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingLeft: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingLeft: "50px",
+          // }}
+          className="textContainer"
         >
           <h1 className="explainHead">Parks.</h1>
 
@@ -77,7 +84,8 @@ export const NatureC: React.FC = () => {
           </p>
         </div>
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://www.bruneitourism.com/wp-content/uploads/2020/04/ATV-Adventure-Brunei-2020.jpg"
         />
       </div>
@@ -122,7 +130,8 @@ export const NatureC: React.FC = () => {
           </p>
         </div>
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://ponidivers.com/ponidivers/wp-content/uploads/sites/2/2021/08/Pelong-Rock-1-Jack-Fish-min-compressed-scaled.jpg"
         />
       </div>
