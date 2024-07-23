@@ -558,4 +558,30 @@ body {
     .address {
         font-size: 0.9rem;
     }
+
+    .buttonNavigation {
+        height: auto;
+    }
+
+    .buttonNavigation a {
+        font-size: 1vh;
+    }
+
+    .desc-test {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .MainContainer-Test {
+        height: auto;
+    }
+
+    .Row {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .carousel {
+        height: 30vh;
+    }
 }

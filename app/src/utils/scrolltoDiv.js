@@ -32,6 +32,7 @@ export function search(event) {
     }
 
 export function initFlightDropDown() {
+
     const hiddenform = document.querySelector(".hidden-form");
     if (hiddenform.style.visibility === "visible") {
         hiddenform.style.transition = "opacity 0s ease, height 1s ease, width 1s ease, visibility 1s ease";
@@ -44,7 +45,7 @@ export function initFlightDropDown() {
     } else {
         hiddenform.style.transition = "opacity 2s ease, height 0.7s ease, width 1s ease, visibility 1s ease";
         hiddenform.style.visibility = "visible";
-        hiddenform.style.height = "10vh";
+        hiddenform.style.height = "auto";
         hiddenform.style.width = "100%";
         hiddenform.style.opacity = "1";
         hiddenform.style.marginBottom = "2rem";

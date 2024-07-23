@@ -34,12 +34,13 @@ export const ReligiousSitesC: React.FC = () => {
     <div>
       <div className="contentSection">
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingRight: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingRight: "50px",
+          // }}
+          className="textContainer"
         >
           <p className="explainBody">
             The religious places in Brunei not only brings the feeling of
@@ -49,7 +50,8 @@ export const ReligiousSitesC: React.FC = () => {
         </div>
 
         <img
-          style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          // style={{ borderRadius: "20px", width: "40rem", height: "20rem" }}
+          className="imgStyle"
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAF6h_GeQBOLX1HNoRzmSp4BoGKWeYfAzBgRNNCVlRelBcwyQKNFsTsGYGCwQyIp2dnG9ueAU1-IF3bTX4s2lfLvpkWXTmkTd6wI_z3q3idmrY_yf7wvK590JeUR_bXhMGy8L7rLWOapGi/s1600/proud+to+be+bruneian7.jpg"
         />
       </div>
@@ -106,12 +108,13 @@ export const ReligiousSitesC: React.FC = () => {
 
       <div className="contentSection">
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingRight: "50px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   justifyContent: "center",
+          //   paddingRight: "50px",
+          // }}
+          className="textContainer"
         >
           <h1 className="explainHead">Temples</h1>
 

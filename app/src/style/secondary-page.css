@@ -59,12 +59,26 @@ h2 {
     justify-content: center;
 }
 
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
 .imgStyle {
     border-radius: 20px;
-    width: 100vw;
+    width: auto;
     height: 40vh;
 }
 
 .touristDestinationPage {
     margin-top: 10vh;
+}
+
+@media (max-width: 768px) {
+    .contentSection {
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+    }
 }
