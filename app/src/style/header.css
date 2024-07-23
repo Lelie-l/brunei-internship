@@ -24,6 +24,9 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration:none;
+} /*remove formatting of hyperlinks especially in links */
 .header {
     width: 100%;
     display: flex;
@@ -480,6 +483,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .buttonNavigation a{
+        font-size:0.7rem;
+    }
     .bodytext {
         /* margin-top: 50px;  */
     }
