@@ -45,3 +45,31 @@
 iframe {
     margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .formatTag {
+        font-size: 0.7rem;
+    }
+
+    p {
+        font-size: 0.7rem
+    }
+
+    .rowLayout {
+        /* flex-direction: column; */
+    }
+
+    .contentBody {
+        margin-top: 0.7rem;
+    }
+    
+    .bodyText {
+        font-size: 0.5rem;
+    }
+
+
+}
